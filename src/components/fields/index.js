@@ -13,8 +13,7 @@ export const customSelect = props => {
   return (
     <div>
       <label>{props.label}</label>
-      <select {...props.select}>
-        <option />
+      <select {...props.input}>
         <option value="tabs">Tabs</option>
         <option value="spaces">Spaces</option>
       </select>
